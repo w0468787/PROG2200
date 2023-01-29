@@ -8,7 +8,6 @@ namespace LoopCounting
         {
             int x = 1;
             int m = 10;
-            int y = 1;
             while (x <= 5)
             {
 
