@@ -7,7 +7,7 @@ namespace Util
     class MyCustomException : FormatException {
         public MyCustomException() { }
 
-        public MyCustomException(string message):base(string.Format("You didnt enter a number ("+message+")")) {
+        public MyCustomException(string message){
             System.Console.WriteLine("You didnt enter a number ("+message+")");
         }
     }

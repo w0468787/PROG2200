@@ -36,7 +36,7 @@ namespace StudentManagerException
                     if (Console.ReadLine() != "y")
                         adding = false;
                 }
-                catch (MyCustomException msg)
+               catch (MyCustomException msg)
                 {
                     Console.WriteLine(msg.Message);
                 }
